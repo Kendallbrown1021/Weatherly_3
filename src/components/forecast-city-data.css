@@ -1,0 +1,50 @@
+.weekday {
+  height: 20%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.day-of-week {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.temp-cont {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.forecast-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.temp-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media screen and (min-width: 700px) {
+  .weekday {
+    flex-direction: column;
+    height: 95%;
+  }
+
+  .temp-cont {
+    width: 100%;
+  }
+}

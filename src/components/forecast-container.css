@@ -1,0 +1,19 @@
+.forecast-container {
+  height: 55%;
+  width: 90%;
+  background-color: var(--secondary-color);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 700px) {
+  .forecast-container {
+    flex-direction: row;
+    overflow: hidden;
+  }
+}
